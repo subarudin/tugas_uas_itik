@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetFlow - Internet Data Subscription</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="#home" class="logo">
+            <i class="fas fa-wifi"></i>
+            <span>NetFlow</span>
+        </a>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Beranda</a></li>
+            <li><a href="#packages">Paket Data</a></li>
+            <li><a href="#subscription">Langganan</a></li>
+            <li><a href="#about">Tentang</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Internet Cepat & Stabil</h1>
+            <p>Nikmati kecepatan internet tanpa batas dengan paket data terbaik</p>
+            <div class="hero-buttons">
+                <button class="btn-primary">Pilih Paket</button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Internet Connection">
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+        <h2>Paket Data Internet</h2>
+        <div class="package-grid">
+            <div class="package-card">
+                <div class="package-header">
+                    <h3>Basic</h3>
+                    <p class="price">Rp 99.000</p>
+                    <p class="duration">/bulan</p>
+                </div>
+                <ul class="package-features">
+                    <li><i class="fas fa-check"></i> 20GB Data</li>
+                    <li><i class="fas fa-check"></i> Kecepatan 10Mbps</li>
+                    <li><i class="fas fa-check"></i> Unlimited Malam</li>
+                    <li><i class="fas fa-check"></i> 24/7 Support</li>
+                </ul>
+                <button class="btn-package">Pilih Paket</button>
+            </div>
+
+            <div class="package-card popular">
+                <div class="popular-tag">Terlaris</div>
+                <div class="package-header">
+                    <h3>Premium</h3>
+                    <p class="price">Rp 199.000</p>
+                    <p class="duration">/bulan</p>
+                </div>
+                <ul class="package-features">
+                    <li><i class="fas fa-check"></i> 50GB Data</li>
+                    <li><i class="fas fa-check"></i> Kecepatan 25Mbps</li>
+                    <li><i class="fas fa-check"></i> Unlimited Malam</li>
+                    <li><i class="fas fa-check"></i> 24/7 Support</li>
+                    <li><i class="fas fa-check"></i> Free Router</li>
+                </ul>
+                <button class="btn-package">Pilih Paket</button>
+            </div>
+
+            <div class="package-card">
+                <div class="package-header">
+                    <h3>Business</h3>
+                    <p class="price">Rp 299.000</p>
+                    <p class="duration">/bulan</p>
+                </div>
+                <ul class="package-features">
+                    <li><i class="fas fa-check"></i> 100GB Data</li>
+                    <li><i class="fas fa-check"></i> Kecepatan 50Mbps</li>
+                    <li><i class="fas fa-check"></i> Unlimited Malam</li>
+                    <li><i class="fas fa-check"></i> 24/7 Support</li>
+                    <li><i class="fas fa-check"></i> Free Router</li>
+                    <li><i class="fas fa-check"></i> Static IP</li>
+                </ul>
+                <button class="btn-package">Pilih Paket</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscription Section -->
+    <section id="subscription" class="subscription">
+        <h2>Langganan Internet</h2>
+        <div class="subscription-container">
+            <div class="subscription-info">
+                <h3>Mengapa Memilih NetFlow?</h3>
+                <ul class="benefits">
+                    <li>
+                        <i class="fas fa-bolt"></i>
+                        <div>
+                            <h4>Kecepatan Stabil</h4>
+                            <p>Nikmati kecepatan internet yang konsisten tanpa buffering</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <h4>Keamanan Terjamin</h4>
+                            <p>Jaringan aman dengan enkripsi tingkat tinggi</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-headset"></i>
+                        <div>
+                            <h4>Dukungan 24/7</h4>
+                            <p>Tim support kami siap membantu Anda kapan saja</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="subscription-form">
+                <h3>Mulai Langganan</h3>
+                <form>
+                    <div class="form-group">
+                        <input type="text" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Nomor Telepon" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Pilih Paket</option>
+                            <option value="basic">Basic - Rp 99.000/bulan</option>
+                            <option value="premium">Premium - Rp 199.000/bulan</option>
+                            <option value="business">Business - Rp 299.000/bulan</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-submit">Daftar Sekarang</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Konfirmasi Pembelian Section -->
+    <section id="konfirmasi" class="konfirmasi">
+        <h2>Konfirmasi Pembelian</h2>
+        <div class="konfirmasi-container">
+            <div class="konfirmasi-info">
+                <h3>Lokasi Pengiriman</h3>
+                <form id="konfirmasiForm">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nama Lengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Alamat Lengkap" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Kota" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Kode Pos" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Nomor Telepon" required>
+                    </div>
+                    <button type="submit" class="btn-submit">Konfirmasi Pembelian</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-header">
+            <h2 class="section-title">Tentang NetFlow</h2>
+            <p class="section-subtitle">Solusi Internet Terbaik untuk Indonesia</p>
+        </div>
+        <div class="about-container">
+            <div class="about-intro">
+                <div class="about-text">
+                    <h3 class="blue-text">Visi Kami</h3>
+                    <p class="vision-text">NetFlow berkomitmen untuk menyediakan layanan internet berkualitas tinggi dengan harga terjangkau bagi seluruh masyarakat Indonesia.</p>
+                </div>
+            </div>
+
+            <div class="phases-container">
+                <h3 class="blue-text">Perjalanan Kami</h3>
+                <div class="phases">
+                    <div class="phase">
+                        <div class="phase-icon blue-text">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="phase-content">
+                            <h4 class="blue-text">Perencanaan</h4>
+                            <p>Riset mendalam dan analisis kebutuhan pasar untuk platform yang sesuai kebutuhan pengguna Indonesia.</p>
+                        </div>
+                    </div>
+
+                    <div class="phase">
+                        <div class="phase-icon blue-text">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="phase-content">
+                            <h4 class="blue-text">Desain</h4>
+                            <p>Antarmuka intuitif dan menarik dengan fokus pada kemudahan penggunaan dan estetika modern.</p>
+                        </div>
+                    </div>
+
+                    <div class="phase">
+                        <div class="phase-icon blue-text">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="phase-content">
+                            <h4 class="blue-text">Pengembangan</h4>
+                            <p>Implementasi teknologi terkini untuk platform yang aman, cepat, dan handal.</p>
+                        </div>
+                    </div>
+
+                    <div class="phase">
+                        <div class="phase-icon blue-text">
+                            <i class="fas fa-vial"></i>
+                        </div>
+                        <div class="phase-content">
+                            <h4 class="blue-text">Pengujian</h4>
+                            <p>Pengujian menyeluruh untuk memastikan kualitas dan keamanan platform.</p>
+                        </div>
+                    </div>
+
+                    <div class="phase">
+                        <div class="phase-icon blue-text">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="phase-content">
+                            <h4 class="blue-text">Peluncuran</h4>
+                            <p>Peluncuran platform dengan dukungan penuh dan layanan pelanggan 24/7.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-stats">
+                <div class="stat-item">
+                    <i class="fas fa-users blue-text"></i>
+                    <h4 class="blue-text">10,000+</h4>
+                    <p>Pengguna Aktif</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-tachometer-alt blue-text"></i>
+                    <h4 class="blue-text">99.9%</h4>
+                    <p>Uptime Server</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-star blue-text"></i>
+                    <h4 class="blue-text">4.8/5</h4>
+                    <p>Rating Pengguna</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>NetFlow</h3>
+                <p>Solusi internet terbaik untuk Anda</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Layanan</h3>
+                <ul>
+                    <li><a href="#">Paket Data</a></li>
+                    <li><a href="#">Langganan</a></li>
+                    <li><a href="#">Cek Cakupan</a></li>
+                    <li><a href="#">Bantuan</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Kontak</h3>
+                <ul>
+                    <li><i class="fas fa-phone"></i> +62 85717586707</li>
+                    <li><i class="fas fa-envelope"></i> ihsankha06@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 NetFlow. Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
